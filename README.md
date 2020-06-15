@@ -1,4 +1,4 @@
-# React-Portfolio
+# React Portfolio
 
 A React based personal portfolio.
 
