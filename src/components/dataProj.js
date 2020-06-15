@@ -5,12 +5,9 @@ import Project, { Project2 } from "./project";
 class DataProject extends Component {
   render() {
     return (
-      // <Grid className="project-grid">
-
       <React.Fragment>
         <Cell col={4} tablet={12}>
           <Project
-            //   picture="http://sigspatial2016.sigspatial.org/giscup2016/gfx/image002.jpg"
             picture={require("./file/geoData.png")}
             name="GeoSpatial Data Analysis"
             intro="Performing GeoSpatial Data Analysis with Hadoop cluster and Spark."
@@ -19,7 +16,6 @@ class DataProject extends Component {
         </Cell>
         <Cell col={4} tablet={12}>
           <Project
-            //   picture="http://sigspatial2016.sigspatial.org/giscup2016/gfx/image002.jpg"
             picture={require("./file/smartYelp.png")}
             name="The Smart Yelp"
             intro="A Restaurant recommendation system based on Yelp Dataset."

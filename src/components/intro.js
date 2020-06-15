@@ -9,9 +9,7 @@ class Intro extends Component {
         <br />
         <Grid className="project-grid-all">
           <Cell className="resume-text-white" col={12}>
-            {/* <div className="banner-text-white"> */}
             <Projects />
-            {/* </div> */}
           </Cell>
         </Grid>
       </div>

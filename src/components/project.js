@@ -32,8 +32,6 @@ class Project extends Component {
           <Button colored href={this.props.link}>
             Link
           </Button>
-          {/* <Button colored>CodePen</Button> */}
-          {/* <Button colored>Live Demo</Button> */}
         </CardActions>
         <CardMenu style={{ color: "#fff" }}>
           <IconButton name="share" />
@@ -66,7 +64,6 @@ class Project2 extends Component {
             Link
           </Button>
           <Button colored>CodePen</Button>
-          {/* <Button colored>Live Demo</Button> */}
         </CardActions>
         <CardMenu style={{ color: "#fff" }}>
           <IconButton name="share" />

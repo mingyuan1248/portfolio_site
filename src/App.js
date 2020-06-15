@@ -8,7 +8,6 @@ class App extends Component {
   render() {
     return (
       <div className="demo-big-content">
-        {/* <div style={{ height: "300px", position: "relative" }}> */}
         <Layout
           style={{
             backgroundImage: `url(${background})`,
@@ -26,7 +25,7 @@ class App extends Component {
             style={{ color: "white" }}
           >
             <Navigation>
-              {/* <Link to="/starter">Starter</Link> */}
+       
               <Link to="/">About Me</Link>
 
               <Link to="/resume">Resume</Link>
@@ -42,8 +41,7 @@ class App extends Component {
             }
           >
             <Navigation>
-              {/* <Link to="/starter">Starter</Link> */}
-              {/* <Link to="/">About Me</Link> */}
+
               <Link to="/resume">Resume</Link>
 
               <Link to="/projects">Projects</Link>
@@ -52,8 +50,7 @@ class App extends Component {
           </Drawer>
           <Content>
             <div className="page-content" />
-            {/* <br /> */}
-            {/* <br /> */}
+       
             <Main />
           </Content>
         </Layout>

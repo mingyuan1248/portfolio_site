@@ -15,9 +15,6 @@ class Starter extends Component {
               <h4>
                 My name is Mingyuan, Data Engineer and Full Stack Developer.
               </h4>
-              {/* <hr style={{ borderTop: "3px solid white" }} />
-              <h3>Hello!</h3> */}
-              {/* <p></p> */}
             </div>
           </Cell>
 
@@ -36,23 +33,13 @@ class Starter extends Component {
                 />
               </Cell>
               <Cell col={8} style={{ maxWidth: "500px" }}>
-                {/* <div className="resume-text-white"> */}
                 <h3>As Full Stack Developer</h3>
-                {/* <hr /> */}
-                {/* <hr style={{ borderTop: "3px solid black" }} /> */}
+
                 <p>
                   I am interested in creating responsive website, providing
                   seamless experience both on mobile and desktop. Scalability is
                   also my priority for my system design and implementation.{" "}
                 </p>
-
-                {/* <p>
-                  Front End: HTML/CSS, JavaScript, Node.js, React.js, Gatsby,
-                  D3.js.
-                </p>
-                <p>Back End: Flask, Django, Spring MVC, WordPress, PHP.</p> */}
-                {/* </div> */}
-                {/* <p>Others: AWS, Google Cloud, Firebase.</p> */}
               </Cell>
             </Grid>
           </Cell>
@@ -78,20 +65,18 @@ class Starter extends Component {
               </Cell>
             </Grid>
           </Cell>
-          {/* <hr /> */}
+
           <Cell className="resume-text-white" col={12}>
             <Grid className="intro-grid ">
               <Cell col={8} style={{ maxWidth: "420px" }}>
-                {/* <div className="resume-text-white"> */}
                 <h3>As Data Engineer</h3>
-                {/* <hr /> */}
-                {/* <hr style={{ borderTop: "3px solid black" }} /> */}
+
                 <p>Speciaty in distributed computing database system. </p>
                 <p>
                   {" "}
                   <b>Languages: </b>Python, R, Matlab , SQL.
                 </p>
-                {/* </div> */}
+
                 <p>
                   <b>Tools: </b>Hadoop, Spark, NumPy, Matplotlib.
                 </p>
@@ -129,7 +114,6 @@ class Starter extends Component {
                   </Button>
                 </Cell>
                 <Cell col={6} tablet={12}>
-                  {/* &nbsp;&nbsp;&nbsp;&nbsp; */}
                   <Button raised colored className="button" href="/resume">
                     Resume
                   </Button>

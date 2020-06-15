@@ -3,10 +3,7 @@ import { Footer } from "react-mdl";
 class foot extends Component {
   render() {
     return (
-      <Footer
-        class="mdl-mini-footer"
-        // style={{ left: 0, width: "100 % ", bottom: 0 }}
-      >
+      <Footer class="mdl-mini-footer">
         <div class="mdl-mini-footer__left-section">
           <div class="mdl-logo">Home</div>
           <ul class="mdl-mini-footer__link-list">
